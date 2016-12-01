@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+
+body {
+    text-align: center;
+    background-color: #1673CC;
+    font-family: 'Bungee', cursive;
+}
+
+canvas{
+    background-image: url("images/flashcard.gif");
+    /*background-color: #1673CC;*/
+    background-size:100% 100%;
+    /*border: 3px solid black;*/
+    margin: -20px;
+}
+
+canvas#myCanvas {
+    /*border: 3px solid black;*/
+    text-align: center;
+    margin: auto;
+}
+
+form div#question {
+    float:left;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left:40px;
+    width:40%;
+    text-shadow: 2px 2px 2px #FF1002;
+}
+
+form div#answer {
+    float:right;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-right:40px;
+    width:40%;
+    text-shadow: 2px 2px 2px #FF1002;
+
+}
+
+form div button#submit {
+    text-align: center;
+    margin-top:30px;
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 2px 2px 5px black;
+    color:#FF1002;
+    font-family: 'Bungee', cursive;
+
+
+    margin-bottom: 10px;
+}
+
+form div button#submit:hover {
+    cursor: pointer;
+    box-shadow: 4px 4px 7px black;
+
+}
+
+.user_input {
+    border: 2px solid black;
+    padding-bottom: 20px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+textarea {
+    width: 100%;
+    font-size:15px;
+    cursor: hand;
+}
+
+div.description {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color:#EBFF1B;
+    text-shadow: 1px 1px 1px black;
+}
+
+button#start {
+    margin-bottom: 20px;
+    width:130px;
+    height:40px;
+    font-size: 20px;
+    border-radius: 60px;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 2px 2px 5px black;
+    color:#FF1002;
+    font-family: 'Bungee', cursive;
+
+
+}
+
+button#start:hover {
+    cursor: pointer;
+    box-shadow: 3px 5px 7px black;
+}
+
+
+
+#show {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 2px 2px 5px black;
+    color:#FF1002;
+    font-family: 'Bungee', cursive;
+
+}
+
+#show:hover {
+    cursor:pointer;
+    box-shadow: 4px 4px 7px black;
+}
+
+#Q {
+    float:left;
+    font-size: 20px;
+    margin-left:20px;
+
+}
+
+#A {
+    float:right;
+    font-size: 20px;
+    margin-right:20px;
+
+
+
+}
+
+.hidden {
+    display:none;
+}
+
+
+#score {
+    font-size: 30px;
+}
+
+div.red {
+    color:red !important;
+    text-shadow: 2px 2px 2px white;
+}
+
+div.green {
+    color:green !important;
+    text-shadow: 2px 2px 2px BLACK;
+}
+
+#title {
+    color:#FF1002 !important;
+    text-shadow: 2px 2px 2px black;
+    border-bottom:2px solid black;
+}
+
+#quit {
+
+    width:50px;
+    height:25px;
+    font-size: 15px;
+    border-radius: 50px;
+    color:black;
+
+
+}
+
+#quit:hover {
+    cursor: pointer;
+}
+
+#count {
+    color:#FF1002;
+    text-shadow: 2px 2px 2px black;
+}

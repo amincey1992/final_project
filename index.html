@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css" media="screen" charset="utf-8">
+    <title>Brick Break Flash Cards</title>
+</head>
+<body>
+
+<h1 id="title">Brick Breaker Flash Cards</h1>
+<div class="description">Input your flash cards at the bottom (max 15). Click start when ready for quiz!</div>
+
+<button id="start" onclick="start();" type="button">Start!</button>
+<br>
+<div id="score"></div>
+<canvas id="myCanvas" width="480" height="320"></canvas>
+<br>
+<button id="quit" onclick=" window.location.reload();" type="button">Quit</button>
+
+
+<br>
+
+
+
+
+<form class="user_input", action="">
+
+    <div id="count"></div>
+
+    <div id="hide">
+        <div id="question">
+            Question: <br><textarea id="quest"></textarea><br>
+        </div>
+
+        <div id="answer">
+            Answer: <br><textarea id="ans"></textarea><br>
+        </div>
+
+        <div >
+        <button id="submit" onclick="inputs()" type="button">Submit</button>
+        </div>
+    </div>
+</form>
+
+<button id="show" onclick="showFlashCards()">Show My Flash Cards</button>
+
+<div id="Q"></div>
+<div id="A"></div>
+
+
+<script src="main.js"></script>
+</body>
+</html>
