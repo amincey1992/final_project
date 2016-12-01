@@ -4,7 +4,7 @@
   "private": "true",
   "main": "server.js",
   "scripts": {
-    "start": "node main.js"
+    "start": "node server.js"
   },
   "author": "alex mincey",
   "license": "ISC",
