@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node main.js"
   },
   "author": "alex mincey",
   "license": "ISC",
@@ -11,6 +11,6 @@
     "type": "git",
     "url": "https://git.heroku.com/brickbreakerflashcards.git"
   },
-  "description": "",
+  "description": "A cool little study game",
   "dependencies": {}
 }
