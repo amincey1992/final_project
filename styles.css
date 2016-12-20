@@ -65,6 +65,8 @@ form div button#submit:hover {
     padding-bottom: 20px;
     font-size: 30px;
     margin-top: 30px;
+    background-color: #0A61B2;
+    box-shadow: 4px 4px 2px black;
 }
 
 textarea {
@@ -103,11 +105,11 @@ button#start:hover {
 
 #show {
     margin-top: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     text-align: center;
     font-size: 20px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
     text-shadow: 2px 2px 2px black;
     box-shadow: 2px 2px 5px black;
     color:#FF1002;
@@ -124,13 +126,19 @@ button#start:hover {
     float:left;
     font-size: 20px;
     margin-left:20px;
-
+    margin-bottom: 50px;
+    line-height: 40px;
 }
 
 #A {
     float:right;
     font-size: 20px;
     margin-right:20px;
+    margin-bottom: 50px;
+    line-height: 40px;
+
+
+
 
 
 
@@ -179,4 +187,5 @@ div.green {
 #count {
     color:#FF1002;
     text-shadow: 2px 2px 2px black;
+    margin-top:5px;
 }

@@ -72,7 +72,6 @@ var canvas = document.getElementById("myCanvas");
     var dx = 2;
     var dy = -2;
     var paddleHeight = 10;
-    var correctAnswers = 0;
     var paddleWidth = 75;
     var paddleX = (canvas.width - paddleWidth) / 2;
     var rightPressed = false;
@@ -122,17 +121,18 @@ var canvas = document.getElementById("myCanvas");
                         dy = -dy;
                         b.status = 0;
                         score++;
-
-                        var answer_input = prompt(question[random1]);
-                        if (answer_input != null) {
-                            if (answer_input === answer[random1]){
-                                var correct = document.getElementById('score');
-                                correct.innerHTML = "Correct!";
-                                document.getElementById("score").className = "green";
-                            }else{
-                                var wrong = document.getElementById('score');
-                                wrong.innerHTML = "Incorrect!";
-                                document.getElementById("score").className = "red";
+                        if (question[0] != null) {
+                            var answer_input = prompt(question[random1]);
+                            if (answer_input != null) {
+                                if (answer_input === answer[random1]) {
+                                    var correct = document.getElementById('score');
+                                    correct.innerHTML = "Correct!";
+                                    document.getElementById("score").className = "green";
+                                } else {
+                                    var wrong = document.getElementById('score');
+                                    wrong.innerHTML = "Incorrect!";
+                                    document.getElementById("score").className = "red";
+                                }
                             }
                         }
 
